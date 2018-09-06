@@ -17,7 +17,7 @@ public class BmiProject {
         //Collecting info
         System.out.println("Whats is your height?");
 
-
+        Testing to see if everything works
 
 
 
