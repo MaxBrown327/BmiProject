@@ -9,6 +9,7 @@ public class BmiProject {
         int lbs;
         float meters;
         float kgs;
+        float BMI;
 
         Scanner keyboard = new Scanner(System.in);
 
@@ -26,6 +27,8 @@ public class BmiProject {
         System.out.println("How much dow you weigh?");
         lbs = keyboard.nextInt();
         kgs = lbs * 0.453592f;
+        BMI = kgs / (meters*meters);
+        System.out.println("So with the data collected that means your BMI is" +" "+ BMI);
 
         }
 }
